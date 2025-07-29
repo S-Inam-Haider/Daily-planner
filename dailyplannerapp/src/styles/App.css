@@ -1,0 +1,97 @@
+body {
+  background-color: #81a4d8; /* your chosen background */
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+/* App Container */
+.App {
+  max-width: 750px;
+  margin: 40px auto;
+  padding: 25px;
+  background:#F5F7FA;
+  
+  box-shadow: 0 4px 18px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  color: #28238a;
+  margin-bottom: 30px;
+}
+
+/* Form Styling */
+form {
+  background-color: #b2b6b7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  margin-bottom: 25px;
+}
+
+input, textarea, select {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+button {
+  background-color: #0f4c81;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #094067;
+}
+
+/* Task Cards */
+.task-card {
+  background: #ffffff;
+  border-left: 6px solid #0f4c81;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.07);
+  transition: transform 0.2s;
+}
+
+.task-card:hover {
+  transform: scale(1.02);
+}
+
+.task-card h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.task-card p {
+  margin: 4px 0;
+}
+
+.status {
+  font-weight: bold;
+  color: #6c757d;
+}
+
+/* Button Group */
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
